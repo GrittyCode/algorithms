@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "queue": "cpp",
+        "xiosbase": "cpp"
+    }
+}
