@@ -36,7 +36,6 @@ void dfs(int cnt)
 
 }
 
-
 int main(void)
 {
     cin >> N >> M;

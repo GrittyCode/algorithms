@@ -38,7 +38,6 @@ void dfs(int teamCount, int first)
             }           
         }
 
-
         //괄호 제거
         //minScore = min(minScore,abs(start-link));
     }
