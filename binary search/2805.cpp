@@ -13,6 +13,7 @@ unsigned int longLength = 0;
 unsigned int tree[MAX];
 
 
+
 int main(void)
 {
     cin >> N >> M;
