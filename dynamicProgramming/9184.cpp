@@ -46,4 +46,6 @@ int main(void)
              << "= " << w(a, b, c) << "\n";
     }
     return 0;
+
+    //v.begin()은 첫번째 원소를 가르키지만 v.end()는 마지막 원소 그 다음을 가르킨다. 즉 Null값을 가르킬것.
 }
