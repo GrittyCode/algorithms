@@ -60,7 +60,6 @@ void dfs(int result, int cnt)
 
 }
 
-
 int main(void)
 {
     cin >> N;
