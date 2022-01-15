@@ -60,11 +60,13 @@ void bfs(int start)
 void dfs(int start, int color)
 {
     colored[start] = color;
-    for(int i = 0 ;vecVer[start].size(); ++i)
+    for(int i = 0; i < vecVer[start].size(); ++i)
     {
-        if(colored[vecVer[start][i] == 0]) //해당 노드의 자식노드들이 방문되었는지 확인 후, 방문 되어 있지 않다면 자식 노드의 레벨로 바로 넘어가준다.
+        int next = vecVer[start][i];
+        
+        if(colored[next] == 0)
         {
-            dfs(vecVer[start][i], 3 - color);
+            dfs(next, 3 - color);
         }
     }
 }
