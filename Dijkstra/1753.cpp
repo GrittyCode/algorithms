@@ -36,25 +36,24 @@ void DijkstraSolve()
             int nCost = graph[curidx][i].second;  //연결된 인덱스까지의 가중치
             if(dist[next] > cost + nCost)
             {
-                dist[next] = cost + nCost;
-                pq.push({-dist[next],next});
+                dist[next] = cost + nCost; //정점까지 도달하는 가중치 갱신
+                pq.push({-dist[next],next}); //갱신된 정점의 인덱스와, 가중치들을 우선순위 큐에 push해준다. 만약 가장 작은 가중치를 가졌다면 다음 idx로 선정.
             }
         }
     }
 
-    for(int i = 1; i <= V; ++i)
+    for(int i = 1; i <= V; ++i)  //출력문 작성
     {
-        if(dist[i] == INF)
+        if(dist[i] == INF) //설정한 INF와 같다면 문자열 INF 출력
         {
             cout << "INF" << '\n';
         }
         else
         {
-            cout << dist[i] << '\n';
+            cout << dist[i] << '\n'; //정점들의 가중치 출력
         }   
     }
 }
-
 
 int main()
 {
