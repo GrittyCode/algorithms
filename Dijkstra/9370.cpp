@@ -48,14 +48,12 @@ void Dijkstra(int start, vector<pair<int,int>> A[])
         }
     }
 }
-
 void Init()
 {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
 }
-
 
 // s -> g -> h -> x or s -> h -> g - > x가 s -> x보다 거리가 짧다면 vector<int> goal에 넣어준다. 그 후, goal을 다 뽑아준다.
 int main()
