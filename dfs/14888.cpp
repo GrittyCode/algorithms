@@ -5,7 +5,6 @@ using namespace std;
 
 #define VERTEXMAX 10001
 
-
 int N,M,V;
 bool visited[VERTEXMAX];
 int Array[1000 + 1][1000 + 1];
