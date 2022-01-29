@@ -10,7 +10,6 @@ int N, M; //정점, 간선의 개수
 
 long long dist[MAX];                     //정점들의 최소비용을 적어줄 배열
 vector<pair<pair<int, int>, int>> graph; // graph first.first = from first.second = to second = 가중치
-
 void TimeMachine(int start)
 {
     //시작 정점 초기화
