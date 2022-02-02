@@ -34,7 +34,6 @@ void FloydWarShall()
             }
         }
     }
-
     sort(v.begin(), v.end()); //벡터를 오름차순으로 정렬해줘 front()부문이 가장 작은 수가 되도록한다. 
 
     if (v.empty()) //vector가 비어있다는 것은 사이클이 없다는 뜻
