@@ -20,7 +20,6 @@ void Init()
     cin.tie(NULL);
     cout.tie(NULL);
 }
-
 void Dijkstra(int start)
 {
     for (int i = 0; i <= N; ++i)
