@@ -100,7 +100,6 @@ int main()
     
     int from, to;
 
-
     while(K--)
     {
         cin >> V >> E;
