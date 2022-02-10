@@ -38,7 +38,6 @@ void bfs(int start)
         }
     }
 }
-
 int main()
 {
     Init();
