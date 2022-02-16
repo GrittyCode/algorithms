@@ -79,10 +79,9 @@ int main()
             {
                 Dfs(i, j, graph[i][j]);
                 cntforRedWeek++;
-            }
+            } 
         }
     }
-    
 
     cout << cntforAll << " " << cntforRedWeek;
     return 0;
