@@ -47,7 +47,6 @@ void bfs()
     
     cout << MoveCnt[N - 1][M - 1] << "\n";
 }
-
 int main(void)
 {
     cin >> N >> M;
