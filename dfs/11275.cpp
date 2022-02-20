@@ -6,6 +6,7 @@ int N;
 int arr[MAX];
 bool visited[MAX];
 vector<int> v[MAX];
+
 void dfs(int k)
 {
     visited[k] = true;
@@ -14,8 +15,8 @@ void dfs(int k)
         int next = v[k][i];
         if (!visited[next])
         {
-            arr[next] = k;
-            dfs(next);
+            arr[next] = k; //부모 설정
+            dfs(next); //자식의 자식 원소 진행
         }
     }
 }
