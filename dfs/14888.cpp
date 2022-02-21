@@ -55,7 +55,6 @@ void bfs(int vertex)
 int main(void)
 {
    
-
     cin >> N >> M >> V;
 
     int col, row;
