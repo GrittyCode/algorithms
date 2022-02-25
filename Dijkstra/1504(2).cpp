@@ -21,7 +21,6 @@ void Init()
     cin.tie(NULL);
     cout.tie(NULL);
 }
-
 void Dijkstra(int start)
 {
     for(int i = 0; i <= N; ++i) //정점 초기화(여러번 돌리기 위한 코드)
