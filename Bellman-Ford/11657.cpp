@@ -71,6 +71,5 @@ int main()
     }
 
     TimeMachine(1);
-
     return 0;
 }
