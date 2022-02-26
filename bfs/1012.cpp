@@ -5,7 +5,6 @@
 using namespace std;
 
 #define MAX 51
-
 int T,N,M,K;
 
 int arr[MAX][MAX];
