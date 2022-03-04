@@ -86,7 +86,6 @@ int main()
         }
         maxArea = max(maxArea, tmp);
     }
-
     cout << maxArea;
 
     return 0;
