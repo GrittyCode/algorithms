@@ -97,7 +97,6 @@ int main()
     int K;
     cin >> K;
 
-    
     int from, to;
 
     while(K--)
