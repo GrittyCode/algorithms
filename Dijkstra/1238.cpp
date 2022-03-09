@@ -64,7 +64,6 @@ int main()
         Res[i] = Dist[X];
         
     }
-
     for(int i = 1; i <= N; ++i) Dist[i] = INF;
     Dijkstra(X);
 

@@ -20,7 +20,6 @@ void dfs(int k)
         }
     }
 }
-
 int main()
 {
     cin >> N;
