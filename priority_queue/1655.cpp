@@ -55,7 +55,6 @@ int main(void)
                 minQueue.push(temp);
             }
         }
-
         cout << maxQueue.top() << "\n";
     }
     return 0;
