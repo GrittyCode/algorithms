@@ -46,14 +46,12 @@ void Bellmanford(int start)
     return;
 
 }
-
 void Init()
 {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
 }
-
 int main()
 {
     Init();
